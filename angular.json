@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+               "../hackernews/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+                 "../hackernews/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hackernews"
+    }
+  },
+  "defaultProject": "hackernews",
+  "cli": {
+    "analytics": "455e237d-55e1-4699-9a70-98e56b3fe12a"
+  }
 }

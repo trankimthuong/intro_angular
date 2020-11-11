@@ -1,0 +1,13 @@
+<h2>Today's article</h2>
+<ul class="list-group" *ngFor="let art of articles">
+  <li class="list-group-item">
+        <div>
+         <a href="{{art.url}}" target="_blank">{{art.title}}</a>
+         <br>
+         <app-likebutton></app-likebutton>
+        </div>
+  </li>
+</ul>
+
+@ThuongCoBap, 2020
+
